@@ -1,0 +1,139 @@
+{
+  "id": "chemtable-periodic-table-pwa",
+  "name": "Periodic Table & IUPAC Chemistry Database",
+  "short_name": "ChemTable",
+  "description": "Comprehensive academic reference PWA with interactive 118-element periodic grid, Bohr orbit visualizer, dynamic temperature phase simulation, and nuclear isotope stability engine.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "theme_color": "#080c16",
+  "background_color": "#080c16",
+  "dir": "ltr",
+  "lang": "en",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ec4e53d7",
+  "categories": [
+    "education",
+    "reference",
+    "utilities",
+    "books"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Interactive 18-column IUPAC Periodic Table with dynamic thermophysical phase simulation"
+    },
+    {
+      "src": "./screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Element Dossier featuring Bohr quantum orbits, Lewis electron dots, and isotope decay tables"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Periodic Table",
+      "short_name": "Table",
+      "description": "Open interactive 118-element periodic grid",
+      "url": "./#/",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Organic Chemistry Archive",
+      "short_name": "Organic",
+      "description": "Explore functional groups, reaction mechanisms, and 3D molecules",
+      "url": "./#/archive/organic",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Inorganic Chemistry Archive",
+      "short_name": "Inorganic",
+      "description": "Explore coordination complexes, crystal lattices, and minerals",
+      "url": "./#/archive/inorganic",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Carbon Dossier (Z=6)",
+      "short_name": "Carbon",
+      "description": "Direct reference for Carbon, allotropes, and organic chemistry foundations",
+      "url": "./#/element/6",
+      "icons": [
+        {
+          "src": "./pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "./#/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "q"
+    }
+  }
+}

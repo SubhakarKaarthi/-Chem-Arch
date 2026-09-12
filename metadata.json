@@ -1,0 +1,6 @@
+{
+  "name": "Periodic Table & Chemistry Database",
+  "description": "Comprehensive, peer-reviewed IUPAC Periodic Table of Elements and chemical database. Features interactive 118-element property heatmaps, real-time STP temperature simulation (0–6000K), dynamic Bohr & Lewis models, nuclear decay isotope tables, and offline 3D molecular structures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
